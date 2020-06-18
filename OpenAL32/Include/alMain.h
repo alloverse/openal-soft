@@ -214,7 +214,7 @@ struct ALvoiceProps;
 struct ALeffectslotProps;
 
 
-#define DEFAULT_OUTPUT_RATE  (44100)
+#define DEFAULT_OUTPUT_RATE  (48000)
 #define MIN_OUTPUT_RATE      (8000)
 
 

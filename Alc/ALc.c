@@ -4028,7 +4028,7 @@ ALC_API ALCdevice* ALC_APIENTRY alcOpenDevice(const ALCchar *deviceName)
     device->AmbiLayout = AmbiLayout_Default;
     device->AmbiScale = AmbiNorm_Default;
     device->NumUpdates = 3;
-    device->UpdateSize = 1024;
+    device->UpdateSize = 96;
 
     device->SourcesMax = 256;
     device->AuxiliaryEffectSlotMax = 64;
